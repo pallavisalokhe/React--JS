@@ -9,5 +9,5 @@
 - Class Vs ClassName:In HTML we use class attribute and in JSX we use className attribute because JSX gets translated into JavaScript, and class is a reserved word in JavaScript.
 - In a self-closing tag forword slash / is compulsary.<img>,<br> are self closing tags
 - JavaScript, written inside of a JSX expression, written inside of a JavaScript file.and when we add curly bracket {} we get output.
-- 
+- Variables in JSX means that you can access variables while inside of a JSX expression, even if those variables were declared on the outside.
 - 
