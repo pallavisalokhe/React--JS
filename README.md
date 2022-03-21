@@ -6,3 +6,8 @@
 - To render a JSX expression means to make it appear onscreen.
 - We can also Passing a Variable to ReactDOM.render()
 - ReactDOM.render() is only updates DOM elements that have changed.That means if you render the exact same thing twice in a row, the second render will do nothing. It only updating the necessary DOM elements is a large part of what makes React so successful.this is called Virtual DOM.
+- Class Vs ClassName:In HTML we use class attribute and in JSX we use className attribute because JSX gets translated into JavaScript, and class is a reserved word in JavaScript.
+- In a self-closing tag forword slash / is compulsary.<img>,<br> are self closing tags
+- JavaScript, written inside of a JSX expression, written inside of a JavaScript file.and when we add curly bracket {} we get output.
+- 
+- 
