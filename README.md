@@ -21,3 +21,4 @@
 -  the DOM is used in React applications, but it isn’t part of React.Methods imported from 'react' are only for pure React purposes, such as creating components or writing JSX elements.
 -  React.Component is a JavaScript class. To create your own component class, you must subclass React.Component. You can do this by using the syntax class YourComponentNameGoesHere extends React.Component {}.
 -  Subclassing React.Component is the way to declare a new component class.
+-  A render method must contain a return statement.
