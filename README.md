@@ -10,4 +10,14 @@
 - In a self-closing tag forword slash / is compulsary.<img>,<br> are self closing tags
 - JavaScript, written inside of a JSX expression, written inside of a JavaScript file.and when we add curly bracket {} we get output.
 - Variables in JSX means that you can access variables while inside of a JSX expression, even if those variables were declared on the outside.
-- 
+- The ternary operator works the same way in React as it does in regular JavaScript. 
+- && works in conditionals that will sometimes do an action, but other times do nothing action
+- If to create a list of JSX elements, then .map() is used
+- A key is a JSX attribute.The attribute’s value should be something unique, similar to an id attribute.
+- By using React.creatElement() we can write react code without using JSX.
+## React components
+-  React component is a small, reusable chunk of code that is responsible for one job, which often involves rendering HTML.
+-  you have to import the React library, and save it in a variable named React
+-  the DOM is used in React applications, but it isn’t part of React.Methods imported from 'react' are only for pure React purposes, such as creating components or writing JSX elements.
+-  React.Component is a JavaScript class. To create your own component class, you must subclass React.Component. You can do this by using the syntax class YourComponentNameGoesHere extends React.Component {}.
+-  Subclassing React.Component is the way to declare a new component class.
