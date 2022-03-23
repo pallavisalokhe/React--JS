@@ -22,3 +22,10 @@
 -  React.Component is a JavaScript class. To create your own component class, you must subclass React.Component. You can do this by using the syntax class YourComponentNameGoesHere extends React.Component {}.
 -  Subclassing React.Component is the way to declare a new component class.
 -  A render method must contain a return statement.
+-  we can also use variable attributes in components
+-  by putting logic in render before the return statement
+-  the if statement is located inside of the render function, but before the return statement.
+- Render functions often contain event listeners. 
+## Components Interacting
+- A React application can contain many of components.Each component might be small and relatively unremarkable on its own. When combined this get complex ecosystems of information.React special is the ways in which components interact.
+- render methods return <div></div>s, <p></p>s, and <h1></h1> Render methods can also return component class <omg/>
