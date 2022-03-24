@@ -28,7 +28,7 @@
 - Render functions often contain event listeners. 
 ## Components Interacting
 - A React application can contain many of components.Each component might be small and relatively unremarkable on its own. When combined this get complex ecosystems of information.React special is the ways in which components interact.
-- render methods return<div></div>s, <p></p>s, and <h1></h1> Render methods can also return component class <omg/>
+- render methods return (<div></div>s, <p></p>s, and <h1></h1>) Render methods can also return component class (<omg/>)
 - When you use React.js, every JavaScript file in your application is invisible to every other JavaScript file by default. ProfilePage.js and NavBar.js can’t see each other.
 - If you use an import statement, and the string at the end begins with either a dot or a slash, then import will treat that string as a filepath. import will follow that filepath, and import the file that it finds.If your filepath doesn’t have a file extension, then “.js” is assumed.Ex.,import { NavBar } from './NavBar';
 - When you import a variable from a file that is not the current file, then an import statement isn’t quite enough. You also need an export statement, written in the other file, exporting the variable that you hope to grab.export and import are meant to be used together, and you rarely see one without the other.
