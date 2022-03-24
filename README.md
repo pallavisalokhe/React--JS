@@ -37,4 +37,5 @@
 - If <App /> is going to pass a prop to <Greeting />, then it follows that <App /> is going to render <Greeting />.this is called to pass Props components to components
 - you attach any event handler to a JSX element: you give that JSX element a special attribute. The attribute’s name should be something like onClick or onHover. The attribute’s value should be the event handler that you want to attach.
 -  If you are listening for a “keyPress” event, then you name your event handler handleKeyPress:
--  
+-  this.props.children will return everything in between a component’s opening and closing JSX tags.
+-  If nobody passes any text to Button, then Button‘s display will be blank.then we can used default Props and give text to the button
