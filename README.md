@@ -32,3 +32,10 @@
 - When you use React.js, every JavaScript file in your application is invisible to every other JavaScript file by default. ProfilePage.js and NavBar.js can’t see each other.
 - If you use an import statement, and the string at the end begins with either a dot or a slash, then import will treat that string as a filepath. import will follow that filepath, and import the file that it finds.If your filepath doesn’t have a file extension, then “.js” is assumed.Ex.,import { NavBar } from './NavBar';
 - When you import a variable from a file that is not the current file, then an import statement isn’t quite enough. You also need an export statement, written in the other file, exporting the variable that you hope to grab.export and import are meant to be used together, and you rarely see one without the other.
+- this.props: a component can pass information to another component.Information that gets passed from one component to another is known as “props.”A component’s props is an object. It holds information about that component.
+- to pass `Props` that is information to a component, you need a name for the information that you want to pass.
+- By using this.Props.information name it helps to print value which is passed through the information name in render statement
+- If <App /> is going to pass a prop to <Greeting />, then it follows that <App /> is going to render <Greeting />.this is called to pass Props components to components
+- you attach any event handler to a JSX element: you give that JSX element a special attribute. The attribute’s name should be something like onClick or onHover. The attribute’s value should be the event handler that you want to attach.
+-  If you are listening for a “keyPress” event, then you name your event handler handleKeyPress:
+-  
