@@ -40,3 +40,6 @@
 -  If you are listening for a “keyPress” event, then you name your event handler handleKeyPress:
 -  this.props.children will return everything in between a component’s opening and closing JSX tags.
 -  If nobody passes any text to Button, then Button‘s display will be blank.then we can used default Props and give text to the button
+-  **This.state**
+-  React components will often need dynamic information in order to render.Dynamic Information is information that can changed There are two ways for a component to get dynamic information: props and state. Besides props and state, every value used in a component should always stay exactly the same.
+-  A component changes its state by calling the function this.setState().
