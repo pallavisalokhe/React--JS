@@ -43,3 +43,15 @@
 -  **This.state**
 -  React components will often need dynamic information in order to render.Dynamic Information is information that can changed There are two ways for a component to get dynamic information: props and state. Besides props and state, every value used in a component should always stay exactly the same.
 -  A component changes its state by calling the function this.setState().
+## Component Lifecycle Methods
+- constructor() is the first method called during the mounting phase. 
+- render() is called later during the mounting phase, to render the component for the first time, and during the updating phase, to re-render the component.
+- Mounting, when the component is being initialized and put into the DOM for the first time. We saw that the constructor, render(), and componentDidMount() are called during this phase.
+- Updating, when the component updates as a result of changed state or changed props.render() and componentDidUpdate() are called during this phase.
+- Unmounting, when the component is being removed from the DOM. componentWillUnmount() was called here, which was a good time to clean things up.
+## Hooks
+- **Functional components** function components can do everything that class components can do.
+-  written as a stateless functional component:
+export const MyComponentClass = () => {
+  return <h1>Hello world</h1>;
+}
