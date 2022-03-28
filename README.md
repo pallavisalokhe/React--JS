@@ -50,8 +50,9 @@
 - Updating, when the component updates as a result of changed state or changed props.render() and componentDidUpdate() are called during this phase.
 - Unmounting, when the component is being removed from the DOM. componentWillUnmount() was called here, which was a good time to clean things up.
 ## Hooks
-- **Functional components** function components can do everything that class components can do.
+- **Functional components**
+-  function components can do everything that class components can do.
 -  written as a stateless functional component:
 export const MyComponentClass = () => {
-  return <h1>Hello world</h1>;
+  return <h1></h1>;
 }
