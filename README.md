@@ -58,3 +58,4 @@ syntax:export const MyComponentClass = () => {
 }
 - function components can receive information that is props.syntax:export function NewFriend (props) {
 		return ()}
+		
