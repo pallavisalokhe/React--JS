@@ -53,6 +53,8 @@
 - **Functional components**
 -  function components can do everything that class components can do.
 -  written as a stateless functional component:
-export const MyComponentClass = () => {
+syntax:export const MyComponentClass = () => {
   return <h1></h1>;
 }
+- function components can receive information that is props.syntax:export function NewFriend (props) {
+		return ()}
