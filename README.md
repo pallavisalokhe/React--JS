@@ -59,3 +59,14 @@ syntax:export const MyComponentClass = () => {
 - function components can receive information that is props.syntax:export function NewFriend (props) {
 		return ()}
 		
+		
+		
+		
+		
+		
+## Stateless components from statefull components
+- Statefull means component contain state(information) property.Stateless means components does not have information
+- Any component rendered by a different component must be included in an export statement.
+- A React component should use (props) to store information that can be changed, but can only be changed by a different component.
+- A React component should use (state) to store information that the component itself can change. 
+		
